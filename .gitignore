@@ -1,5 +1,15 @@
-**/*
+# Ignore everything
+**
+
+# Allow the .gitignore file, .tmux.conf, and .bashrc
 !.gitignore
 !.tmux.conf
 !.bashrc
-!.config/nvim/**/*
+
+# Allow the entire .config directory but ignore its contents
+!.config/
+.config/**
+
+# Specifically allow everything under .config/nvim/
+!.config/nvim/
+!.config/nvim/**
