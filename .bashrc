@@ -160,3 +160,4 @@ export XDG_RUNTIME_DIR="/tmp/XDG_RUNTIME_DIR/"
 mkdir -p /tmp/XDG_RUNTIME_DIR/
 chmod 777 /tmp/XDG_RUNTIME_DIR/
 
+. "$HOME/.cargo/env"
